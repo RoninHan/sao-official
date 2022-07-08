@@ -1,0 +1,13 @@
+{   //为自动完成路径定义自定义映射
+    "path-autocomplete.pathMappings": {
+        "@src": "${folder}/src"
+    },
+    //展示目录下所有文件
+    "path-autocomplete.excludedItems": {
+        "**/*.js": { "when": "**/*.ts" }, // ignore js files if i'm inside a ts file
+        "**/*.map": { "when": "**" }, // always ignore *.map files
+        "**/{.git,node_modules}": { "when": "**" } // always ignore .git and node_modules folders
+    },
+    //在import或require语句上插入文件时添加扩展名
+    "path-autocomplete.extensionOnImport": true,
+}
