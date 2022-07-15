@@ -54,10 +54,9 @@ const items: MenuProps['items'] = [
 ];
 
 const Header: React.FC = () => {
-  const [current, setCurrent] = useState('mail');
+  const [current, setCurrent] = useState('home-page');
 
   const onClick: MenuProps['onClick'] = e => {
-    console.log('click ', e);
     setCurrent(e.key);
   };
 
