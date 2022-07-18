@@ -21,15 +21,9 @@ const Banner: React.FC = () => {
   return (
     <div className='banner'>
       <Swiper className="mySwiper" modules={[Navigation]} navigation={navigationConfig} >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><div className={'banner-item banner-item1'}></div></SwiperSlide>
+        <SwiperSlide><div className={'banner-item banner-item2'}></div></SwiperSlide>
+        <SwiperSlide><div className={'banner-item banner-item3'}></div></SwiperSlide>
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
       </Swiper>

@@ -1,0 +1,17 @@
+.product{
+    width: 100%;
+    height: 500px;
+    .product-item{
+        width: 300px;
+        margin: 30px auto;
+        .product-title{
+            font-size: 30px;
+        }
+        .product-content{
+            font-size: 25px;
+        }
+        .product-more{
+            font-size: 20px;
+        }
+    }
+}

@@ -1,8 +1,21 @@
 
 .banner{
     width:100%;
-    height: 800px;
+    height: 600px;
     position: relative;
+    .banner-item{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-item1{
+        background-color: red;
+    }
+    .banner-item2{
+        background-color: blueviolet;
+    }
+    .banner-item3{
+        background-color: blue;
+    }
     .swiper-button-next{
         position: absolute;
         right: 0;
